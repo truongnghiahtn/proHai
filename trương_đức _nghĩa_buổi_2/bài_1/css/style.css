@@ -1,0 +1,270 @@
+/* GLOBAL CSS */
+
+.clear {
+    clear: both;
+}
+
+
+/* BEGIN BODY */
+
+body {
+    background-color: gray
+}
+
+
+/* END BODY */
+
+
+/* BEGIN WRAPER */
+
+.wraper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f9f5f0;
+}
+
+
+/* END WRAPER */
+
+
+/* BEGIN HEADER */
+
+.navbar {
+    background-color: black;
+    padding: 15px 0;
+}
+
+.navbar .navbar-item {
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+.navbar .navbar-nav {
+    margin: 0;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.navbar .navbar-item a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar-item a:hover {
+    color: red;
+}
+
+
+/* END HEADER */
+
+
+/* BEGIN CAROUSEL */
+
+.carousel {
+    margin: 10px 0;
+    background-image: url("../img/slider_1.jpg");
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/* END CAROUSEL */
+
+
+/*  BEGIN INTRO */
+
+.intro-left,
+.intro-right {
+    float: left;
+    width: 50%;
+    height: 600px;
+}
+
+.intro-item {
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    background-clip: content-box;
+    padding: 10px;
+}
+
+.intro-1 {
+    background-image: url(../img/img_nha_tam.jpg);
+    height: 40%;
+    width: 50%;
+    margin-left: -9px;
+    position: relative;
+}
+
+.intro-2 {
+    background-image: url(../img/img_sofa.jpg);
+    height: 40%;
+    width: 50%;
+}
+
+.intro-3 {
+    background-image: url(../img/img_noi_that.jpg);
+    height: 60%;
+    margin-left: -9px;
+}
+
+.intro-4 {
+    background-image: url(../img/phong_khach.jpg);
+    height: 50%;
+    margin-left: 9px;
+}
+
+.intro-5 {
+    background-image: url(../img/van_phong.jpg);
+    height: 50%;
+    margin-left: 9px;
+}
+
+.intro-detal1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 247px;
+    text-align: center;
+}
+
+
+/* END INTRO */
+
+
+/* BEGIN PRODUCTION */
+
+.product>h1 {
+    text-align: center;
+    margin: 10px 0 15px 0;
+}
+
+.product-item h2 {
+    margin: 0;
+}
+
+.product-list {
+    margin: 0 -4px;
+}
+
+.product-item {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.product-item button {
+    padding: 10px;
+    color: white;
+    background-color: #d9534f;
+    border-radius: 5px;
+}
+
+
+/* END PRODUCTION */
+
+
+/* BEGIN BANNER */
+
+.banner {
+    background-image: url("../img/nature.jpg");
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    margin-top: 40px;
+    position: relative;
+}
+
+.banner .circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgba(209, 75, 68, 0.5);
+    padding-top: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+
+.circle p {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    color: white;
+}
+
+.circle p:first-child {
+    font-size: 30px;
+}
+
+.circle p:last-child {
+    font-size: 20px;
+}
+
+
+/* END BANNER */
+
+
+/* BEGIN SERVICE */
+
+.service {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.service-item {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.service-item>img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-item>h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.service-item p {
+    margin: 0;
+}
+
+
+/* END SERVICE */
+
+
+/* BEGIN FOOTER */
+
+.footer {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.footer h1,
+.footer p {
+    margin: 0;
+}
+
+
+/* END FOOTER */

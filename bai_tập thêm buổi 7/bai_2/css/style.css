@@ -1,0 +1,721 @@
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/* BEgIN HEADER */
+
+.header-top__icon .fa {
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.header-top__phone {
+    font-size: 1.2rem;
+}
+
+
+/* END HEADER */
+
+
+/* BEGIN NAV */
+
+.nav--header .nav--logo {
+    font-size: 2rem;
+    color: #868c94;
+}
+
+.nav--header .nav--logo span {
+    font-weight: 700;
+    color: #7f67f8;
+    font-size: 2.2rem;
+}
+
+.nav--list .nav-item .nav-link {
+    color: black;
+    margin: 0 10px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.nav--list .nav-item .nav-link:hover,
+.nav--list .nav-item.active .nav-link {
+    color: #7f67f8;
+}
+
+
+/* END NAV */
+
+
+/* BEGIN CAROUSEL */
+
+.carousel--img {
+    position: relative;
+}
+
+.carousel--img img {
+    width: 100%;
+    height: 700px;
+}
+
+.carousel--content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+.carousel--content .carousel-indicators {
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+}
+
+.carousel--content .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #7f67f8;
+    opacity: 1;
+    margin: 0 10px;
+}
+
+.carousel-indicators li.active {
+    background-color: white;
+}
+
+.carousel--detail h1 {
+    font-size: 3rem;
+    width: 1000px;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.carousel-img__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.more,
+.carousel--detail .us {
+    width: 130px;
+    height: 45px;
+    margin-top: 20px;
+    color: white;
+}
+
+.more {
+    background-color: #7f67f8;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+}
+
+.carousel--detail .more:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.carousel--detail .us {
+    background-color: transparent;
+    border: 2px solid white;
+    transition: all 0.5s;
+}
+
+.carousel--detail .us:hover {
+    background-color: #7f67f8;
+    border: 2px solid transparent;
+}
+
+.carousel .modal .modal-title {
+    color: #7f67f8;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.carousel .modal button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+
+/* END CAROUSEL */
+
+.what--title {
+    position: relative;
+}
+
+.what--title h1 {
+    padding-top: 40px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.what--title p {
+    font-size: 1.2rem;
+    color: #868c94;
+    letter-spacing: 2px;
+}
+
+.what--title::after {
+    content: '';
+    width: 900px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.what--content {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.what--detail {
+    position: relative;
+}
+
+.what--detail i {
+    font-size: 3rem;
+    color: #f97c69;
+}
+
+.what--detail h1 {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.what--detail::after {
+    content: '';
+    width: 1px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    position: absolute;
+    right: 2px;
+    bottom: 0;
+}
+
+.what--detail.end::after {
+    height: 0;
+    width: 0;
+}
+
+
+/* BEGIN WHAT */
+
+
+/* BEGIN CONTACT */
+
+.contact {
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+}
+
+.contact--content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.contact--content h1 {
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+
+.contact_btn:hover {
+    background-color: #f97c69;
+}
+
+
+/* END CONTACT */
+
+
+/* BEGIN PRO */
+
+.pro--title h1 {
+    padding-top: 80px;
+    font-weight: 400;
+}
+
+.pro--title p {
+    font-size: 1.2rem;
+    color: #868c94;
+    letter-spacing: 2px;
+    padding: 30px 0;
+}
+
+.pro--detail h1 {
+    color: #f97c69;
+    font-size: 3.5rem;
+    margin: 20px 0;
+}
+
+.pro--detail h2 {
+    font-size: 1.2rem;
+}
+
+
+/* END PRO */
+
+
+/* BEGIN OUR */
+
+.our {
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    height: 830px;
+}
+
+.our--title h1 {
+    padding-top: 80px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.our--title p {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+.our--detail {
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+}
+
+.our--detail.pink {
+    background-color: #f97c69;
+    color: white;
+}
+
+.our--detail i {
+    font-size: 3rem;
+    color: #f97c69;
+    margin: 20px 0;
+}
+
+.our--detail.pink i {
+    font-size: 3rem;
+    color: white;
+}
+
+.our--detail h1 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+
+/* END OUR */
+
+
+/* BEGIN CUSTOMER */
+
+.customer {
+    height: 660px;
+}
+
+.customer--title h1 {
+    padding-top: 80px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.customer--title p {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+.customer-slider .item img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px solid #7f67f8;
+}
+
+.customer-slider h1 {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.customer-slider p {
+    padding: 10px 15px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #f97c69;
+    opacity: 0.5;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #f97c69;
+    opacity: 1;
+}
+
+
+/* END CUSTOMER */
+
+
+/* BEGIN FOOTER */
+
+.footer {
+    background-color: #0b0c11;
+    color: #bfbfbf;
+}
+
+.footer h1 {
+    color: #f97c69;
+    font-size: 2rem;
+    padding-top: 80px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.footer--mail input {
+    width: 300px;
+    background-color: transparent;
+    height: 40px;
+    padding-left: 20px;
+    color: white;
+    margin-top: 57px;
+}
+
+.footer--mail button {
+    height: 38px;
+    width: 60px;
+    border: none;
+    background-color: #7f67f8;
+    position: absolute;
+    left: 253px;
+    top: 267px;
+}
+
+.footer--menu ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer--menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer--vitri i {
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    color: #f97c69;
+}
+
+.end1 {
+    background-color: #252525;
+}
+
+#totop img {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    visibility: hidden;
+}
+
+#totop.cd-top--is-visible img {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* END FOOTER */
+
+
+/* BEGIN REPONSIVE*/
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    /* BEGIN NAV */
+    .carousel--img img {
+        height: 600px;
+    }
+    .carousel-img__overlay {
+        height: 600px;
+    }
+    .carousel--content {
+        top: 30%;
+    }
+    .carousel--detail h1 {
+        font-size: 2.3rem;
+        width: 776px;
+        padding-bottom: 20px;
+    }
+    .carousel--detail p {
+        font-size: 1.2rem;
+    }
+    .more,
+    .carousel--detail .us {
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .carousel--content .carousel-indicators {
+        bottom: -120px;
+    }
+    .carousel--content .carousel-indicators li {
+        width: 14px;
+        height: 14px;
+    }
+    /* END NAV */
+    /* BEGIN TITLE */
+    .title h1 {
+        padding-top: 40px;
+        font-size: 2.7rem;
+    }
+    .title p {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    /* END TITLE */
+    /* BEGIN WHAT */
+    .what--title::after {
+        width: 500px;
+    }
+    /* END WHAT */
+    /* BEGIN CONTACT */
+    .contact--content {
+        height: 180px;
+    }
+    .contact--content h1 {
+        font-size: 1.8rem;
+    }
+    /* END CONTACT */
+    /* BEGIN pRO */
+    .pro--detail h1 {
+        font-size: 3rem;
+        margin: 10px 0;
+    }
+    .pro--detail h2 {
+        font-size: 1.2rem;
+    }
+    /* END PRO */
+    /* BEGIN Customer */
+    .customer {
+        height: 600px;
+    }
+    /* END Customer */
+    .footer--mail button {
+        left: 253px;
+        top: 307px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    /* begin header */
+    /* end header */
+    /* BEGIN NAV */
+    .carousel--img img {
+        height: 450px;
+    }
+    .carousel-img__overlay {
+        height: 450px;
+    }
+    .carousel--content {
+        top: 30%;
+    }
+    .carousel--detail h1 {
+        font-size: 1.7rem;
+        width: 576px;
+        padding-bottom: 20px;
+    }
+    .carousel--detail p {
+        font-size: 1rem;
+    }
+    .more,
+    .carousel--detail .us {
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .carousel--content .carousel-indicators {
+        bottom: -100px;
+    }
+    .carousel--content .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+    /* END NAV */
+    /* BEGIN TITLE */
+    .title h1 {
+        padding-top: 25px;
+        font-size: 2.3rem;
+    }
+    .title p {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    /* END TITLE */
+    /* BEGIN WHAT */
+    .what--title::after {
+        width: 300px;
+    }
+    /* END WHAT */
+    /* BEGIN CONTACT */
+    .contact--content {
+        height: 180px;
+    }
+    .contact--content h1 {
+        font-size: 1.3rem;
+    }
+    .contact--content button {
+        font-size: 0.8rem;
+    }
+    /* END CONTACT */
+    /* BEGIN pRO */
+    .pro--detail h1 {
+        font-size: 2.8rem;
+        margin: 10px 0;
+    }
+    .pro--detail h2 {
+        font-size: 1.2rem;
+    }
+    /* END PRO */
+    /* BEGIN OUR */
+    .our {
+        height: 950px;
+    }
+    /* END OUR */
+    /* BEGIN Customer */
+    .customer {
+        height: 500px;
+    }
+    /* END Customer */
+}
+
+@media screen and (max-width:576px) {
+    /* begin header */
+    .header-top__icon .fa {
+        font-size: 1rem;
+    }
+    .header-top__phone {
+        font-size: 1rem;
+    }
+    /* end header */
+    /* BEGIN NAV */
+    .carousel--img img {
+        height: 450px;
+    }
+    .carousel-img__overlay {
+        height: 450px;
+    }
+    .carousel--content {
+        top: 30%;
+    }
+    .carousel--detail h1 {
+        font-size: 1.2rem;
+        width: 500px;
+        padding-bottom: 20px;
+    }
+    .carousel--detail p {
+        font-size: 0.9rem;
+    }
+    .more,
+    .carousel--detail .us {
+        width: 80px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .carousel--content .carousel-indicators {
+        bottom: -100px;
+    }
+    .carousel--content .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+    /* END NAV */
+    /* BEGIN TITLE */
+    .title h1 {
+        padding-top: 20px;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .title p {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+    /* END TITLE */
+    /* BEGIN WHAT */
+    .what--title::after {
+        width: 300px;
+    }
+    /* END WHAT */
+    /* BEGIN CONTACT */
+    .contact--content {
+        height: 180px;
+    }
+    .contact--content h1 {
+        font-size: 1.3rem;
+    }
+    .contact--content button {
+        font-size: 0.8rem;
+    }
+    /* END CONTACT */
+    /* BEGIN pRO */
+    .pro--detail h1 {
+        font-size: 2.5rem;
+        margin: 10px 0;
+    }
+    .pro--detail h2 {
+        font-size: 1rem;
+    }
+    /* END PRO */
+    /* BEGIN OUR */
+    .our {
+        height: 1500px;
+    }
+    /* END OUR */
+    /* BEGIN Customer */
+    .customer {
+        height: 500px;
+    }
+    /* END Customer */
+}
+
+
+/* END REPONSIVE */
